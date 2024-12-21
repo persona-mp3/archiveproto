@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+
+:root{
+  --bgColor: rgba(19, 18, 18, 0.733);
+  --fontColor: rgba(0, 0, 0, 0.849);
+  --fFamily: Montserrat, sans-serif;
+}
+body{
+  background-color: var(--bgColor);
+  color: var(--fontColor);
+  font-weight: bold;
+  font-family: var(--fFamily);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#form{
+  border: 1px solid;
+  padding: 2rem;
+  border-radius: .2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  padding: .2rem;
+  place-content: center;
+}
+
+
+.form-child{
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: .2rem;
+}
+
+#label{
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  padding: .5rem;
+}
+
+input{
+  all: unset;
+  font-family: var(--fFamily);
+  font-weight: light;
+  border-radius: .2rem;
+  padding: .3rem;
+  color: inherit;
+  background-color: white;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: .2rem;
+}
+
+.button-container *{
+  all: unset;
+  border-radius: .2rem;
+  color: inherit;
+  background-color: white;
+  text-align: center;
+  padding: .3rem;
+}
+
+.button-container *:hover{
+  background-color: black;
+  color: white;
+  padding: .3rem;
+  transition: 0.4s ease;
+}

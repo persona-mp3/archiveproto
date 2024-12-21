@@ -1,0 +1,48 @@
+John Doe
+john.doe@example.com
+password123
+
+
+"name": "Jane Smith",
+"email": "jane.smith@example.com",
+"password": "securePass456"
+
+"name": "Alice Johnson",
+"email": "alice.johnson@example.com",
+"password": "alice789!"
+
+"name": "Henry Moore",
+"email": "henry.moore@outlook.com",
+"password": "HenR!M00re"
+
+"name": "Ivy Clark",
+"email": "ivy.clark@digital.com",
+"password": "Ivy*Clark987"
+
+"name": "Bob Brown",
+"email": "bob.brown@gmail.com",
+"password": "brownie@123"
+
+{
+"name": "Charlie Davis",
+"email": "charlie.davis@expresso.com",
+"password": "ch@rlie#456"
+},
+
+{
+"name": "Emily Wilson",
+"email": "emily.wilson@yahoo.com",
+"password": "EmiLY2024"
+},
+
+{
+"name": "Frank Harris",
+"email": "frank.harris@google.com",
+"password": "Harris$5678"
+},
+
+{
+"name": "Grace Lee",
+"email": "grace.lee@blackppol.ac.uk",
+"password": "Grace#Lee99"
+},
